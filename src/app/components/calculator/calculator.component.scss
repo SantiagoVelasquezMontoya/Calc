@@ -1,0 +1,52 @@
+.calc-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid white;
+    padding: 2em;
+    border-radius: 5px;
+    .title {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      flex-direction: column;
+      gap: 10px;
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        label {
+          font-size: 1.1rem;
+          color: #fff;
+        }
+        input {
+          font-size: 1.1rem;
+          color: #fff;
+          background: none;
+          outline: none;
+          border: 0;
+          border-bottom: 1px solid white;
+          padding: 0.2em;
+        }
+      }
+      button {
+        font-size: 1.1rem;
+        color: white;
+        background: dodgerblue;
+        border: 1px solid dodgerblue;
+        padding: 0.4em 0.8em;
+        cursor: pointer;
+        &:hover {
+          background: #000044;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<section class="section calc-section" s>
+  <div class="form-container">
+    <h2 class="title">{{ title | uppercase }}</h2>
+    <form (ngSubmit)="onSubmit()" [formGroup]="calculatorForm">
+      <div class="input-group">
+        <label for="n1">Number 1</label>
+        <input
+          type="text"
+          name="n1"
+          id="n1"
+          formControlName="n1"
+          autocomplete="off"
+        />
+      </div>
+      <div class="input-group">
+        <label for="n2">Number 2</label>
+        <input
+          type="text"
+          name="n2"
+          id="n2"
+          formControlName="n2"
+          autocomplete="off"
+        />
+      </div>
+
+      <button type="button" (click)="calculate()">Calcular</button>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+    <div>{{ res }}</div>
+  </div>
+</section>

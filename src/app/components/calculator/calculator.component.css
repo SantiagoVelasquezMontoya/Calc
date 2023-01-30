@@ -1,0 +1,76 @@
+.calc-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calc-section .form-container {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid white;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+.calc-section .form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.calc-section .form-container form .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.calc-section .form-container form .input-group label {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.calc-section .form-container form .input-group input {
+  font-size: 1.1rem;
+  color: #fff;
+  background: none;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid white;
+  padding: 0.2em;
+}
+
+.calc-section .form-container form button {
+  font-size: 1.1rem;
+  color: white;
+  background: dodgerblue;
+  border: 1px solid dodgerblue;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+}
+
+.calc-section .form-container form button:hover {
+  background: #000044;
+}
+/*# sourceMappingURL=calculator.component.css.map */
