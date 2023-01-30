@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Componente para cada operacion, que recibe 2 valores y da la respuesta de la operacion
+4 Operaciones basicas
+Todos deben estar dentro de una pagina unica (Componente )
+Boton de limpiar y de calcular
